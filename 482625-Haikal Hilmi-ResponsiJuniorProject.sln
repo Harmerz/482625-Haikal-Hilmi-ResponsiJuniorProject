@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "482625-Haikal Hilmi-ResponsiJuniorProject", "482625-Haikal Hilmi-ResponsiJuniorProject\482625-Haikal Hilmi-ResponsiJuniorProject.csproj", "{F8C87A2B-ABAB-456B-922C-E7B65D496BF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8C87A2B-ABAB-456B-922C-E7B65D496BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C87A2B-ABAB-456B-922C-E7B65D496BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C87A2B-ABAB-456B-922C-E7B65D496BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C87A2B-ABAB-456B-922C-E7B65D496BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA871D73-2370-4EE5-8940-02DE19986646}
+	EndGlobalSection
+EndGlobal
