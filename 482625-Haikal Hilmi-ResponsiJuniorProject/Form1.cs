@@ -180,8 +180,8 @@ namespace _482625_Haikal_Hilmi_ResponsiJuniorProject
             }
             try
             {
-                conn.Open();
                 string id_dep = GetID(cbDepartement.Text);
+                conn.Open();
                 cmd = new NpgsqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("_nama", txtNama.Text);
                 cmd.Parameters.AddWithValue("_id_dep", id_dep);
