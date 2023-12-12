@@ -180,8 +180,9 @@ namespace _482625_Haikal_Hilmi_ResponsiJuniorProject
             }
             try
             {
-                string id_dep = GetID(cbDepartement.Text);
                 conn.Open();
+                string id_dep = GetID(cbDepartement.Text);
+                sql = @"Update karyawan SET nama=:_nama, id_dep=:_id_dep where id_karyawan=:_id_karyawan";
                 cmd = new NpgsqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("_nama", txtNama.Text);
                 cmd.Parameters.AddWithValue("_id_dep", id_dep);
@@ -190,7 +191,7 @@ namespace _482625_Haikal_Hilmi_ResponsiJuniorProject
                 int rowsAffected = cmd.ExecuteNonQuery();
                 if (rowsAffected > 0)
                 {
-                    MessageBox.Show("Data Karyawan Berhasil diinputkan", "Well Done!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Data Karyawan Berhasil diEdit", "Well Done!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     conn.Close();
                     LoadData(null, null);
                     txtNama.Text = null;
